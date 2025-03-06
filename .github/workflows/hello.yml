@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Code
         run: ls -la
       - name: Read and Output
-        run: cat hello.txt
+        run: cat Hello.txt
       
         
     

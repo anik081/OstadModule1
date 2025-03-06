@@ -3,13 +3,13 @@ name: Hello.txt Workflow
 on: 
   push: 
     branches:
-      -main
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
       - name: Checkout Code
         run: ls -la
       - name: Read and Output
